@@ -1,13 +1,126 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 100px;
+  background-color: #940d1b;
+  color: white;
+  width: 100vw;
+}
+
+.navbar p {
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.signIn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 80px;
+}
+
+.cart {
+  margin-left: 50px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #000;
+  margin-left: 40px;
+  position: absolute;
+}
+
+.cart-items {
+}
+
+.imgLT {
+  position: relative;
+}
+
+.imgLT p {
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 100px;
+}
+
+.section4 h5 {
+  font-size: 18px;
+}
+
+.section4 p {
+  font: normal normal normal 14px/30px Roboto;
+  line-height: 20px;
+}
+
+input::placeholder {
+  font-size: 10px;
+  padding: 0 0 7px 15px;
+}
+
+.social {
+  border: 2px solid rgb(133, 133, 133);
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: rgb(133, 133, 133);
+}
+
+.dark-circle {
+  height: 19px;
+  width: 19px;
+  border: 1px solid #940d1b;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #940d1b;
+  top: -30px;
+  left: 700px;
+}
+
+.light-circle {
+  height: 19px;
+  width: 19px;
+  border: 1px solid #ffdce7;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffdce7;
+  left: 250px;
+  top: 35px;
+}
+
+.cart-items {
+  font-size: 7px;
+  border: 1px solid #940d1b;
+  background-color: #940d1b;
+  color: #fff;
+  padding: 0 4px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
 }
