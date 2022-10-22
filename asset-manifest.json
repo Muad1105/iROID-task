@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.2a664003.css",
+    "main.js": "/react-gh-pages/static/js/main.ef8664e4.js",
+    "static/media/Group-240.png": "/react-gh-pages/static/media/Group-240.79061fe160f655de8aa1.png",
+    "static/media/Article.png": "/react-gh-pages/static/media/Article.3fb2f2bd2943207cbe48.png",
+    "static/media/mars-sector-6-7d4LREDSPyQ-unsplash.png": "/react-gh-pages/static/media/mars-sector-6-7d4LREDSPyQ-unsplash.63bc040e14c9a8ea43d1.png",
+    "static/media/block.png": "/react-gh-pages/static/media/block.34fbab8a5375203e9e77.png",
+    "static/media/Group-467.png": "/react-gh-pages/static/media/Group-467.ae46c9897ceead1db97c.png",
+    "static/media/andrew-neel-cckf4TsHAuw-unsplash.png": "/react-gh-pages/static/media/andrew-neel-cckf4TsHAuw-unsplash.8dfe6867e62a941d28c1.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.2a664003.css.map": "/react-gh-pages/static/css/main.2a664003.css.map",
+    "main.ef8664e4.js.map": "/react-gh-pages/static/js/main.ef8664e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a664003.css",
+    "static/js/main.ef8664e4.js"
+  ]
+}
